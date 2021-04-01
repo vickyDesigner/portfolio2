@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -40,7 +42,7 @@
 
       <div id="sectionTable">
         <div id="aboutme-img">
-          <img id="aboutmeImg" src="img/sample.jpeg" />
+          <img id="aboutmeImg" src="img/profile1.png" />
         </div>
 
         <div id="aboutme-text">
@@ -103,18 +105,18 @@
       </p>
 
       <div id="work-container">
-        <div id="work-box2">
+        <div data-aos="flip-left" data-aos-duration="1000" id="work-box2">
           <a href="#"> <img src="img/logo-furni.jpg" /></a>
           <h2>Logo Design</h2>
         </div>
-        <div id="work-box3">
+        <div data-aos="flip-right" data-aos-duration="1000" id="work-box3">
           <a href="#">
             <img src="img/UI-furni.png" />
           </a>
           <h2>UI/UX Design</h2>
         </div>
 
-        <div id="work-box">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" id="work-box">
           <div id="work-box-img">
             <a href="https://vipsmockup.netlify.app"
               ><img src="img/mockup1.png"
@@ -127,7 +129,7 @@
             </p>
           </div>
         </div>
-        <div id="work-box">
+        <div data-aos="zoom-in-left" data-aos-duration="1000" id="work-box">
           <div id="work-box-img">
             <a href="https://mooninterior.netlify.app"
               ><img src="img/mockup2.png"
@@ -141,7 +143,7 @@
             </p>
           </div>
         </div>
-        <div id="work-box">
+        <div data-aos="zoom-in-right" data-aos-duration="2000" id="work-box">
           <div id="work-box-img">
             <a href="https://venezia.netlify.app"
               ><img src="img/mockup3.png"
@@ -155,7 +157,7 @@
             </p>
           </div>
         </div>
-        <div id="work-box">
+        <div data-aos="zoom-in-left" data-aos-duration="2000" id="work-box">
           <div id="work-box-img">
             <a href="https://abcartmuseum.netlify.app">
               <img src="img/mockup4.png"
@@ -177,7 +179,11 @@
         Contact
         <hr />
       </h1>
-      <div id="contactText">
+      <div
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        id="contactText"
+      >
         <h2 id="contactMail">EJCANADAJ@gmail.com</h2>
         <p>
           I'm always ready to work happily with you guys.<br />Feel free to get
@@ -186,5 +192,10 @@
         <p>Copyright&copy;Eunjin Jo</p>
       </div>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -93,6 +93,7 @@ section {
 #sectionTable {
   background-color: #8c6d51;
   display: inline-flex;
+  padding: 20px;
 }
 #aboutmeImg {
   padding: 30px;
@@ -100,13 +101,10 @@ section {
 }
 
 #aboutmeImg:hover {
-  content: url(../img/sample2.jpeg);
+  content: url(../img/profile2.png);
 }
-#aboutme-img {
-  padding: 20px;
-}
+
 #aboutme-text {
-  padding-top: 30px;
   width: 540px;
   text-align: left;
 }
@@ -156,9 +154,10 @@ section {
   margin-top: 40px;
 }
 #work-box {
+  margin: inherit;
   display: inline-flex;
   width: 500px;
-  padding: 20px;
+  padding: 40px;
 }
 #work-box-img {
   width: 100%;
@@ -193,8 +192,8 @@ section {
 }
 #contactText {
   padding: 70px;
-  margin-top: 70px;
   text-align: left;
+  display: inline-block;
 }
 #aboutme-detail {
   display: inline-block;
