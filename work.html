@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-'US'">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div id="logo">
+            <a href="index.html"><img src="img/logo_ej.png" /></a>
+          </div>
+          <ul class="nav-list">
+            <li><a href="https://www.behance.net/victoriajo">Behance</a></li>
+
+            <li><a href="https://github.com/vickyDesigner">Git hub</a></li>
+            <li><a href="#mywork">My work</a></li>
+            <li><a href="img/Resume - Eunjin Jo.docx">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h1 id="sectionTitle">Logo Design</h1>
+    <div class="work_logo">
+      <img src="img/logo-furni.jpg" />
+    </div>
+
+    <div class="work_logo">
+      <img src="img/logo-kitkat.png" />
+    </div>
+
+    <hr id="workHr" />
+    <h1 id="sectionTitle">Web Design</h1>
+    <div class="work_web">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="img/webwork1.png" style="width: 100%" />
+          <div class="text">Furni</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/webwork2.png" style="width: 100%" />
+          <div class="text">Volvo</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/webwork3.png" style="width: 100%" />
+          <div class="text">Art museum</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="img/webwork4.png" style="width: 100%" />
+          <div class="text">Kitkat</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/webwork4_2.png" style="width: 100%" />
+          <div class="text">Kitkat Details</div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

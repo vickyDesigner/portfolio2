@@ -1,0 +1,49 @@
+@media only screen and (max-width: 680px) {
+  #logo {
+    display: inline-block;
+    padding: 0px;
+  }
+  .nav-list {
+    padding: inherit;
+    display: inline-flex;
+    vertical-align: top;
+    font-size: small;
+  }
+
+  #main_text1 {
+    height: 100px;
+    float: right;
+  }
+  #main_text2 {
+    float: left;
+    height: 100px;
+  }
+  section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #sectionTable {
+    display: block;
+    background-color: #8c6d51;
+    padding: 20px;
+  }
+  #aboutmeImg {
+    padding: 0px;
+    height: 200px;
+  }
+  #aboutme-text {
+    /* width: 540px; */
+    display: inline;
+
+    text-align: center;
+  }
+  #aboutme-h2 {
+    text-align: center;
+  }
+  #aboutme-detail {
+    display: inline;
+  }
+  #contactText {
+    padding: 0px;
+  }
+}
