@@ -46,4 +46,7 @@
   #contactText {
     padding: 0px;
   }
+  .slideshow-container-others {
+    width: auto;
+  }
 }

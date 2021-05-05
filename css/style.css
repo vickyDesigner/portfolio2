@@ -229,7 +229,8 @@ section {
   font-size: smaller;
 }
 #work-box2,
-#work-box3 {
+#work-box3,
+#work-box4 {
   display: inline-table;
   width: 450px;
   padding: 20px;
@@ -237,7 +238,8 @@ section {
 }
 
 #work-box2 img,
-#work-box3 img {
+#work-box3 img,
+#work-box4 img {
   width: 90%;
   box-shadow: #ada89a 3px 3px 7px;
   transition: all 0.5s ease-in-out;
@@ -247,12 +249,14 @@ section {
 }
 
 #work-box2 img:hover,
-#work-box3 img:hover {
+#work-box3 img:hover,
+#work-box4 img:hover {
   transform: scale(1.1);
 }
 
 #work-box2 h2,
-#work-box3 h2 {
+#work-box3 h2,
+#work-box4 h2 {
   color: var(--text-color);
   font-weight: bold;
   font-size: larger;
@@ -268,7 +272,8 @@ section {
 }
 .work_web {
   display: block;
-  padding: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 .work_logo img {
   width: 400px;
@@ -291,6 +296,12 @@ section {
 .slideshow-container {
   position: relative;
   margin: auto;
+}
+
+.slideshow-container-others {
+  position: relative;
+  margin: auto;
+  width: 500px;
 }
 
 /* Hide the images by default */
@@ -332,7 +343,7 @@ section {
   color: #262626;
   font-size: 18px;
   font-weight: bold;
-
+  height: 40px;
   width: 100%;
   text-align: center;
   text-transform: capitalize;
@@ -340,7 +351,6 @@ section {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
