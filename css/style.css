@@ -150,10 +150,13 @@ section {
   display: initial;
   margin-top: 40px;
 }
+#work-container2 {
+  display: initial;
+  margin-top: 40px;
+}
 #work-box {
   margin: inherit;
   display: inline-flex;
-  width: 500px;
   padding: 40px;
 }
 #work-box-img {
